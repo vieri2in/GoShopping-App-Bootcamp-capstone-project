@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31235DF72A29487700038586 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31235DF62A29487700038586 /* NetworkService.swift */; };
+		31235DF92A29B1C100038586 /* FakeProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 31235DF82A29B1C100038586 /* FakeProducts.json */; };
+		31235DFD2A29C43B00038586 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31235DFC2A29C43B00038586 /* MockNetworkService.swift */; };
+		312C469E2A3A3B31007F8E2C /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C469D2A3A3B31007F8E2C /* LaunchView.swift */; };
+		312C46DB2A3A6C6A007F8E2C /* DiscountDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C46DA2A3A6C6A007F8E2C /* DiscountDataTests.swift */; };
+		312C46F12A3A6FA4007F8E2C /* NavigationStateManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C46F02A3A6FA4007F8E2C /* NavigationStateManagerTests.swift */; };
+		312C46F32A3A700A007F8E2C /* ProductsStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C46F22A3A700A007F8E2C /* ProductsStoreTests.swift */; };
+		312E51962A07812300633DDC /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E51952A07812300633DDC /* HomeTabView.swift */; };
+		312E51982A07815000633DDC /* CartTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E51972A07815000633DDC /* CartTabView.swift */; };
+		312E519C2A07839100633DDC /* NavigationStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E519B2A07839100633DDC /* NavigationStateManager.swift */; };
+		312E51A02A0819A800633DDC /* ProductsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E519F2A0819A800633DDC /* ProductsStore.swift */; };
+		312E51A32A082BD700633DDC /* HomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E51A22A082BD700633DDC /* HomeDetailView.swift */; };
+		312E51A52A082F3800633DDC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E51A42A082F3800633DDC /* RootView.swift */; };
+		312E51A82A0859F300633DDC /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E51A72A0859F300633DDC /* MarketView.swift */; };
+		312E51AA2A085BAE00633DDC /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E51A92A085BAE00633DDC /* UnitView.swift */; };
+		312EFE112A3A71D4009CF842 /* ContentViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EFE102A3A71D4009CF842 /* ContentViewUITests.swift */; };
+		312EFE132A3B97D0009CF842 /* MarketViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EFE122A3B97D0009CF842 /* MarketViewUITests.swift */; };
+		312EFE152A3B98DB009CF842 /* HomeTabViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EFE142A3B98DB009CF842 /* HomeTabViewUITests.swift */; };
+		312EFE172A3BB888009CF842 /* FakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EFE162A3BB888009CF842 /* FakeTests.swift */; };
+		312EFE192A3BB959009CF842 /* SlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EFE182A3BB959009CF842 /* SlowTests.swift */; };
+		3135389329E36FB900183C2F /* LiGoShoppingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3135389229E36FB900183C2F /* LiGoShoppingApp.swift */; };
+		3135389529E36FB900183C2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3135389429E36FB900183C2F /* ContentView.swift */; };
+		3135389729E36FBA00183C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3135389629E36FBA00183C2F /* Assets.xcassets */; };
+		3135389A29E36FBA00183C2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3135389929E36FBA00183C2F /* Preview Assets.xcassets */; };
+		313538AB29E3846C00183C2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313538AA29E3846C00183C2F /* Constants.swift */; };
+		31560E992A1008F200D90A7E /* DiscountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31560E982A1008F200D90A7E /* DiscountData.swift */; };
+		3159FB9B2A44F146004B731C /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3159FB9A2A44F146004B731C /* ItemRowView.swift */; };
+		3164EFBF2A00763F009D4ED4 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3164EFBE2A00763F009D4ED4 /* ImageView.swift */; };
+		3180E50029EDB1BF001F4158 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180E4FF29EDB1BF001F4158 /* Product.swift */; };
+		3191B4A429EDF51A00213984 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3191B4A329EDF51A00213984 /* TextView.swift */; };
+		319372632A4360BB00EE9123 /* UserCartListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319372622A4360BB00EE9123 /* UserCartListViewModel.swift */; };
+		319372652A437ADC00EE9123 /* CartUnitShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319372642A437ADC00EE9123 /* CartUnitShowView.swift */; };
+		319F48AA2A19746300B770F9 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319F48A92A19746300B770F9 /* FileManager.swift */; };
+		319F48AC2A1976FC00B770F9 /* Product.Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319F48AB2A1976FC00B770F9 /* Product.Category.swift */; };
+		319F48B42A197E9400B770F9 /* Product.Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319F48B32A197E9400B770F9 /* Product.Rating.swift */; };
+		31CDA8BB2A2D411700566646 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CDA8BA2A2D411700566646 /* NetworkMonitor.swift */; };
+		31CDA8BD2A2D44D200566646 /* NoNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CDA8BC2A2D44D200566646 /* NoNetworkView.swift */; };
+		31DF4DA62A2AAC850032E522 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4DA52A2AAC850032E522 /* PageView.swift */; };
+		31DF4DAA2A2AAFF10032E522 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4DA92A2AAFF10032E522 /* OnBoardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		312C46DC2A3A6C6A007F8E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3135388729E36FB900183C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3135388E29E36FB900183C2F;
+			remoteInfo = "Li-Go-Shopping";
+		};
+		312C46EB2A3A6D88007F8E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3135388729E36FB900183C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3135388E29E36FB900183C2F;
+			remoteInfo = "Li-Go-Shopping";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31235DF62A29487700038586 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		31235DF82A29B1C100038586 /* FakeProducts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FakeProducts.json; sourceTree = "<group>"; };
+		31235DFC2A29C43B00038586 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		312C469D2A3A3B31007F8E2C /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		312C46D32A3A6C40007F8E2C /* Li-Go-Shopping.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Li-Go-Shopping.xctestplan"; sourceTree = "<group>"; };
+		312C46D82A3A6C69007F8E2C /* Li-Go-ShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Li-Go-ShoppingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312C46DA2A3A6C6A007F8E2C /* DiscountDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountDataTests.swift; sourceTree = "<group>"; };
+		312C46E52A3A6D88007F8E2C /* Li-Go-ShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Li-Go-ShoppingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312C46F02A3A6FA4007F8E2C /* NavigationStateManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStateManagerTests.swift; sourceTree = "<group>"; };
+		312C46F22A3A700A007F8E2C /* ProductsStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsStoreTests.swift; sourceTree = "<group>"; };
+		312E51952A07812300633DDC /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		312E51972A07815000633DDC /* CartTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTabView.swift; sourceTree = "<group>"; };
+		312E519B2A07839100633DDC /* NavigationStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStateManager.swift; sourceTree = "<group>"; };
+		312E519F2A0819A800633DDC /* ProductsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsStore.swift; sourceTree = "<group>"; };
+		312E51A22A082BD700633DDC /* HomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailView.swift; sourceTree = "<group>"; };
+		312E51A42A082F3800633DDC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		312E51A72A0859F300633DDC /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		312E51A92A085BAE00633DDC /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
+		312EFE102A3A71D4009CF842 /* ContentViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewUITests.swift; sourceTree = "<group>"; };
+		312EFE122A3B97D0009CF842 /* MarketViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewUITests.swift; sourceTree = "<group>"; };
+		312EFE142A3B98DB009CF842 /* HomeTabViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewUITests.swift; sourceTree = "<group>"; };
+		312EFE162A3BB888009CF842 /* FakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeTests.swift; sourceTree = "<group>"; };
+		312EFE182A3BB959009CF842 /* SlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowTests.swift; sourceTree = "<group>"; };
+		3135388F29E36FB900183C2F /* Li-Go-Shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Li-Go-Shopping.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3135389229E36FB900183C2F /* LiGoShoppingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiGoShoppingApp.swift; sourceTree = "<group>"; };
+		3135389429E36FB900183C2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3135389629E36FBA00183C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3135389929E36FBA00183C2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		313538AA29E3846C00183C2F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		31560E982A1008F200D90A7E /* DiscountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountData.swift; sourceTree = "<group>"; };
+		3159FB9A2A44F146004B731C /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		3164EFBE2A00763F009D4ED4 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		3180E4FF29EDB1BF001F4158 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3191B4A329EDF51A00213984 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		319372622A4360BB00EE9123 /* UserCartListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCartListViewModel.swift; sourceTree = "<group>"; };
+		319372642A437ADC00EE9123 /* CartUnitShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartUnitShowView.swift; sourceTree = "<group>"; };
+		319F48A92A19746300B770F9 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		319F48AB2A1976FC00B770F9 /* Product.Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.Category.swift; sourceTree = "<group>"; };
+		319F48B32A197E9400B770F9 /* Product.Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.Rating.swift; sourceTree = "<group>"; };
+		31CDA8BA2A2D411700566646 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		31CDA8BC2A2D44D200566646 /* NoNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkView.swift; sourceTree = "<group>"; };
+		31DF4DA52A2AAC850032E522 /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		31DF4DA92A2AAFF10032E522 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312C46D52A3A6C69007F8E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312C46E22A3A6D88007F8E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3135388C29E36FB900183C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312C469C2A3A3B15007F8E2C /* launch-view */ = {
+			isa = PBXGroup;
+			children = (
+				312C469D2A3A3B31007F8E2C /* LaunchView.swift */,
+			);
+			path = "launch-view";
+			sourceTree = "<group>";
+		};
+		312C46D92A3A6C6A007F8E2C /* Li-Go-ShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				312C46DA2A3A6C6A007F8E2C /* DiscountDataTests.swift */,
+				312C46F02A3A6FA4007F8E2C /* NavigationStateManagerTests.swift */,
+				312C46F22A3A700A007F8E2C /* ProductsStoreTests.swift */,
+				312EFE162A3BB888009CF842 /* FakeTests.swift */,
+				312EFE182A3BB959009CF842 /* SlowTests.swift */,
+			);
+			path = "Li-Go-ShoppingTests";
+			sourceTree = "<group>";
+		};
+		312C46E62A3A6D88007F8E2C /* Li-Go-ShoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				312EFE102A3A71D4009CF842 /* ContentViewUITests.swift */,
+				312EFE122A3B97D0009CF842 /* MarketViewUITests.swift */,
+				312EFE142A3B98DB009CF842 /* HomeTabViewUITests.swift */,
+			);
+			path = "Li-Go-ShoppingUITests";
+			sourceTree = "<group>";
+		};
+		312E518D2A0770D400633DDC /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				312E519B2A07839100633DDC /* NavigationStateManager.swift */,
+				312E519F2A0819A800633DDC /* ProductsStore.swift */,
+				319372622A4360BB00EE9123 /* UserCartListViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		312E518F2A07731000633DDC /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3164EFBE2A00763F009D4ED4 /* ImageView.swift */,
+				313538AA29E3846C00183C2F /* Constants.swift */,
+				3191B4A329EDF51A00213984 /* TextView.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		312E51922A0780DF00633DDC /* first-tab */ = {
+			isa = PBXGroup;
+			children = (
+				312E51952A07812300633DDC /* HomeTabView.swift */,
+				312E51A22A082BD700633DDC /* HomeDetailView.swift */,
+				312E51A42A082F3800633DDC /* RootView.swift */,
+				31CDA8BC2A2D44D200566646 /* NoNetworkView.swift */,
+				3159FB9A2A44F146004B731C /* ItemRowView.swift */,
+			);
+			path = "first-tab";
+			sourceTree = "<group>";
+		};
+		312E51932A0780FC00633DDC /* second-tab */ = {
+			isa = PBXGroup;
+			children = (
+				312E51972A07815000633DDC /* CartTabView.swift */,
+				319372642A437ADC00EE9123 /* CartUnitShowView.swift */,
+			);
+			path = "second-tab";
+			sourceTree = "<group>";
+		};
+		312E51A62A0859D100633DDC /* third-tab */ = {
+			isa = PBXGroup;
+			children = (
+				312E51A72A0859F300633DDC /* MarketView.swift */,
+				312E51A92A085BAE00633DDC /* UnitView.swift */,
+			);
+			path = "third-tab";
+			sourceTree = "<group>";
+		};
+		3135388629E36FB900183C2F = {
+			isa = PBXGroup;
+			children = (
+				312C46D32A3A6C40007F8E2C /* Li-Go-Shopping.xctestplan */,
+				319F48A82A19741600B770F9 /* Extentions */,
+				3135389129E36FB900183C2F /* Li-Go-Shopping */,
+				312C46D92A3A6C6A007F8E2C /* Li-Go-ShoppingTests */,
+				312C46E62A3A6D88007F8E2C /* Li-Go-ShoppingUITests */,
+				3135389029E36FB900183C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3135389029E36FB900183C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3135388F29E36FB900183C2F /* Li-Go-Shopping.app */,
+				312C46D82A3A6C69007F8E2C /* Li-Go-ShoppingTests.xctest */,
+				312C46E52A3A6D88007F8E2C /* Li-Go-ShoppingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3135389129E36FB900183C2F /* Li-Go-Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				3135389429E36FB900183C2F /* ContentView.swift */,
+				315AB1B72A392CA800E97760 /* networking */,
+				319F48AD2A19774900B770F9 /* Resources */,
+				312E518F2A07731000633DDC /* utilities */,
+				312E518D2A0770D400633DDC /* viewmodel */,
+				313538AD29E3849600183C2F /* app */,
+				313538AC29E3848800183C2F /* views */,
+				313538A629E3840600183C2F /* model */,
+				3135389829E36FBA00183C2F /* Preview Content */,
+			);
+			path = "Li-Go-Shopping";
+			sourceTree = "<group>";
+		};
+		3135389829E36FBA00183C2F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3135389929E36FBA00183C2F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		313538A629E3840600183C2F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3180E4FF29EDB1BF001F4158 /* Product.swift */,
+				319F48AB2A1976FC00B770F9 /* Product.Category.swift */,
+				319F48B32A197E9400B770F9 /* Product.Rating.swift */,
+				31560E982A1008F200D90A7E /* DiscountData.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		313538AC29E3848800183C2F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				312C469C2A3A3B15007F8E2C /* launch-view */,
+				31DF4DA42A2AAC6C0032E522 /* onboading */,
+				312E51A62A0859D100633DDC /* third-tab */,
+				312E51922A0780DF00633DDC /* first-tab */,
+				312E51932A0780FC00633DDC /* second-tab */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		313538AD29E3849600183C2F /* app */ = {
+			isa = PBXGroup;
+			children = (
+				3135389229E36FB900183C2F /* LiGoShoppingApp.swift */,
+				3135389629E36FBA00183C2F /* Assets.xcassets */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		315AB1B72A392CA800E97760 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				31235DF62A29487700038586 /* NetworkService.swift */,
+				31235DFC2A29C43B00038586 /* MockNetworkService.swift */,
+				31CDA8BA2A2D411700566646 /* NetworkMonitor.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		319F48A82A19741600B770F9 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				319F48A92A19746300B770F9 /* FileManager.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		319F48AD2A19774900B770F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31235DF82A29B1C100038586 /* FakeProducts.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31DF4DA42A2AAC6C0032E522 /* onboading */ = {
+			isa = PBXGroup;
+			children = (
+				31DF4DA92A2AAFF10032E522 /* OnBoardingView.swift */,
+				31DF4DA52A2AAC850032E522 /* PageView.swift */,
+			);
+			path = onboading;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		312C46D72A3A6C69007F8E2C /* Li-Go-ShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312C46DE2A3A6C6A007F8E2C /* Build configuration list for PBXNativeTarget "Li-Go-ShoppingTests" */;
+			buildPhases = (
+				312C46D42A3A6C69007F8E2C /* Sources */,
+				312C46D52A3A6C69007F8E2C /* Frameworks */,
+				312C46D62A3A6C69007F8E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312C46DD2A3A6C6A007F8E2C /* PBXTargetDependency */,
+			);
+			name = "Li-Go-ShoppingTests";
+			productName = "Li-Go-ShoppingTests";
+			productReference = 312C46D82A3A6C69007F8E2C /* Li-Go-ShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		312C46E42A3A6D88007F8E2C /* Li-Go-ShoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312C46ED2A3A6D88007F8E2C /* Build configuration list for PBXNativeTarget "Li-Go-ShoppingUITests" */;
+			buildPhases = (
+				312C46E12A3A6D88007F8E2C /* Sources */,
+				312C46E22A3A6D88007F8E2C /* Frameworks */,
+				312C46E32A3A6D88007F8E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312C46EC2A3A6D88007F8E2C /* PBXTargetDependency */,
+			);
+			name = "Li-Go-ShoppingUITests";
+			productName = "Li-Go-ShoppingUITests";
+			productReference = 312C46E52A3A6D88007F8E2C /* Li-Go-ShoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3135388E29E36FB900183C2F /* Li-Go-Shopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3135389D29E36FBA00183C2F /* Build configuration list for PBXNativeTarget "Li-Go-Shopping" */;
+			buildPhases = (
+				3135388B29E36FB900183C2F /* Sources */,
+				3135388C29E36FB900183C2F /* Frameworks */,
+				3135388D29E36FB900183C2F /* Resources */,
+				31D2E7312A189BF5006CDF86 /* ShellScript */,
+				31A31CDD2A72203D001D7432 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Li-Go-Shopping";
+			productName = "Li-Go-Shopping";
+			productReference = 3135388F29E36FB900183C2F /* Li-Go-Shopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3135388729E36FB900183C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					312C46D72A3A6C69007F8E2C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3135388E29E36FB900183C2F;
+					};
+					312C46E42A3A6D88007F8E2C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3135388E29E36FB900183C2F;
+					};
+					3135388E29E36FB900183C2F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 3135388A29E36FB900183C2F /* Build configuration list for PBXProject "Li-Go-Shopping" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3135388629E36FB900183C2F;
+			productRefGroup = 3135389029E36FB900183C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3135388E29E36FB900183C2F /* Li-Go-Shopping */,
+				312C46D72A3A6C69007F8E2C /* Li-Go-ShoppingTests */,
+				312C46E42A3A6D88007F8E2C /* Li-Go-ShoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312C46D62A3A6C69007F8E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312C46E32A3A6D88007F8E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3135388D29E36FB900183C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31235DF92A29B1C100038586 /* FakeProducts.json in Resources */,
+				3135389A29E36FBA00183C2F /* Preview Assets.xcassets in Resources */,
+				3135389729E36FBA00183C2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A31CDD2A72203D001D7432 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n echo \"warning; swiftlint not installed\"\nfi\n\n";
+		};
+		31D2E7312A189BF5006CDF86 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312C46D42A3A6C69007F8E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312EFE172A3BB888009CF842 /* FakeTests.swift in Sources */,
+				312C46DB2A3A6C6A007F8E2C /* DiscountDataTests.swift in Sources */,
+				312EFE192A3BB959009CF842 /* SlowTests.swift in Sources */,
+				312C46F32A3A700A007F8E2C /* ProductsStoreTests.swift in Sources */,
+				312C46F12A3A6FA4007F8E2C /* NavigationStateManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312C46E12A3A6D88007F8E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312EFE132A3B97D0009CF842 /* MarketViewUITests.swift in Sources */,
+				312EFE112A3A71D4009CF842 /* ContentViewUITests.swift in Sources */,
+				312EFE152A3B98DB009CF842 /* HomeTabViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3135388B29E36FB900183C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319F48AA2A19746300B770F9 /* FileManager.swift in Sources */,
+				31CDA8BB2A2D411700566646 /* NetworkMonitor.swift in Sources */,
+				31CDA8BD2A2D44D200566646 /* NoNetworkView.swift in Sources */,
+				3180E50029EDB1BF001F4158 /* Product.swift in Sources */,
+				31DF4DAA2A2AAFF10032E522 /* OnBoardingView.swift in Sources */,
+				31560E992A1008F200D90A7E /* DiscountData.swift in Sources */,
+				319372632A4360BB00EE9123 /* UserCartListViewModel.swift in Sources */,
+				3135389529E36FB900183C2F /* ContentView.swift in Sources */,
+				319372652A437ADC00EE9123 /* CartUnitShowView.swift in Sources */,
+				319F48AC2A1976FC00B770F9 /* Product.Category.swift in Sources */,
+				319F48B42A197E9400B770F9 /* Product.Rating.swift in Sources */,
+				31235DFD2A29C43B00038586 /* MockNetworkService.swift in Sources */,
+				312E51A52A082F3800633DDC /* RootView.swift in Sources */,
+				312C469E2A3A3B31007F8E2C /* LaunchView.swift in Sources */,
+				3159FB9B2A44F146004B731C /* ItemRowView.swift in Sources */,
+				312E519C2A07839100633DDC /* NavigationStateManager.swift in Sources */,
+				3164EFBF2A00763F009D4ED4 /* ImageView.swift in Sources */,
+				31235DF72A29487700038586 /* NetworkService.swift in Sources */,
+				312E51A02A0819A800633DDC /* ProductsStore.swift in Sources */,
+				312E51962A07812300633DDC /* HomeTabView.swift in Sources */,
+				3135389329E36FB900183C2F /* LiGoShoppingApp.swift in Sources */,
+				313538AB29E3846C00183C2F /* Constants.swift in Sources */,
+				312E51982A07815000633DDC /* CartTabView.swift in Sources */,
+				312E51AA2A085BAE00633DDC /* UnitView.swift in Sources */,
+				312E51A32A082BD700633DDC /* HomeDetailView.swift in Sources */,
+				31DF4DA62A2AAC850032E522 /* PageView.swift in Sources */,
+				3191B4A429EDF51A00213984 /* TextView.swift in Sources */,
+				312E51A82A0859F300633DDC /* MarketView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		312C46DD2A3A6C6A007F8E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3135388E29E36FB900183C2F /* Li-Go-Shopping */;
+			targetProxy = 312C46DC2A3A6C6A007F8E2C /* PBXContainerItemProxy */;
+		};
+		312C46EC2A3A6D88007F8E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3135388E29E36FB900183C2F /* Li-Go-Shopping */;
+			targetProxy = 312C46EB2A3A6D88007F8E2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		312C46DF2A3A6C6A007F8E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.binli.Li-Go-ShoppingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Li-Go-Shopping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Li-Go-Shopping";
+			};
+			name = Debug;
+		};
+		312C46E02A3A6C6A007F8E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.binli.Li-Go-ShoppingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Li-Go-Shopping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Li-Go-Shopping";
+			};
+			name = Release;
+		};
+		312C46EE2A3A6D88007F8E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.binli.Li-Go-ShoppingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Li-Go-Shopping";
+			};
+			name = Debug;
+		};
+		312C46EF2A3A6D88007F8E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.binli.Li-Go-ShoppingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Li-Go-Shopping";
+			};
+			name = Release;
+		};
+		3135389B29E36FBA00183C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3135389C29E36FBA00183C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3135389E29E36FBA00183C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Li-Go-Shopping/Preview Content\"";
+				DEVELOPMENT_TEAM = VCX45QU374;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.binli.Li-Go-Shopping";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3135389F29E36FBA00183C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Li-Go-Shopping/Preview Content\"";
+				DEVELOPMENT_TEAM = VCX45QU374;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.binli.Li-Go-Shopping";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312C46DE2A3A6C6A007F8E2C /* Build configuration list for PBXNativeTarget "Li-Go-ShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312C46DF2A3A6C6A007F8E2C /* Debug */,
+				312C46E02A3A6C6A007F8E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312C46ED2A3A6D88007F8E2C /* Build configuration list for PBXNativeTarget "Li-Go-ShoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312C46EE2A3A6D88007F8E2C /* Debug */,
+				312C46EF2A3A6D88007F8E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3135388A29E36FB900183C2F /* Build configuration list for PBXProject "Li-Go-Shopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3135389B29E36FBA00183C2F /* Debug */,
+				3135389C29E36FBA00183C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3135389D29E36FBA00183C2F /* Build configuration list for PBXNativeTarget "Li-Go-Shopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3135389E29E36FBA00183C2F /* Debug */,
+				3135389F29E36FBA00183C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3135388729E36FB900183C2F /* Project object */;
+}
