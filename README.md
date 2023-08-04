@@ -1,5 +1,4 @@
-# GoShopping-App-Bootcamp-capstone-project
-A shopping app. It's the capstone project of my IOS boot camp study.
+# GoShopping-app-bootcamp-capstone-project
 ----
 The app provides some basic functionalities of an E-commerce app. After the initial animated splash screens, the app introduces users to a home screen. 
 The home screen downloads data from API and displays it in a list view which connects to a detail view. In the detail view, users can add items to the cart. Besides the home screen, it has two more tab screens. 
